@@ -6,7 +6,7 @@ Tweaks to run Kali Linux desktop panels and gui apps on Windows 10
 2. Run  
    ```
    wget https://raw.githubusercontent.com/Re4son/WSL-XKali/master/install-WSL-Kali-X  
-   sh ./install-WSL-Kali-X  
+   bash ./install-WSL-Kali-X  
    ```  
 3. Download and install VcXsrv X Server from here:  
    https://sourceforge.net/projects/vcxsrv/  
