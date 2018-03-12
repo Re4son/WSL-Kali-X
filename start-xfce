@@ -1,0 +1,8 @@
+#!/bin/bash
+taskkill.exe /IM vcxsrv.exe /T /F
+sleep 2
+/mnt/c/Program\ Files/VcXsrv/vcxsrv.exe  :0 -ac -terminate -lesspointer -multiwindow -clipboard -wgl &
+sleep 2
+sudo /etc/init.d/dbus restart
+dbus-launch --exit-with-session ~/.xsession
+sudo /etc/init.d/dbus stop
