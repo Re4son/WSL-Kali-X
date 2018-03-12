@@ -1,4 +1,4 @@
-# WSL-XKali  
+# WSL-Kali-X  
 Tweaks to run Kali Linux desktop panels and gui apps on Windows 10  
 
 ### Installation:  
