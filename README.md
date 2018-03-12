@@ -15,11 +15,11 @@ Tweaks to run Kali Linux desktop panels and gui apps on Windows 10
 As normal user:  
                 ```
                 ~/start-xfce  
-                ```
+                ```   
 As root:  
                 ```
                 sudo /root/xtart-xfce  
-                ```
+                ```   
                 
 ### Starting the full desktop and connecting to it via Remote Desktop Client:  
 1. In the WSL session, run:  
