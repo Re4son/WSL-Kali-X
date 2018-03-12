@@ -11,6 +11,7 @@ export DISPLAY=:0
 export XDG_RUNTIME_DIR=~/runtime
 export RUNLEVEL=3
 LANG="en_US.utf8"' >> ~/.bashrc
+export DISPLAY=:0
 sudo echo '## enable xcfe launch in WSL
 export DISPLAY=:0
 export XDG_RUNTIME_DIR=~/runtime
