@@ -12,11 +12,13 @@ Tweaks to run Kali Linux desktop panels and gui apps on Windows 10
    https://sourceforge.net/projects/vcxsrv/  
 
 ### Starting the GUI:  
-As normal user:  
+Run kali as normal user (that's the default), and start Voodoo-Kali
+
+- as normal user:  
                 ```
                 ~/start-xfce  
                 ```   
-As root:  
+- as root:  
                 ```
                 sudo /root/xtart-xfce  
                 ```   
