@@ -27,7 +27,7 @@ As root:
                            sudo /etc/init.d/xrdp start  
                            ```  
 2. Open Remote Desktop Connection (mstsc) and connect to 127.0.0.1:3390  
-3. To close the xrdp server, type:  
+3. To stop the xrdp server, type:  
                            ```
-                           sudo /etc/init.d/xrdp start  
+                           sudo /etc/init.d/xrdp stop  
                            ```  
