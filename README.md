@@ -20,7 +20,7 @@ Run kali as normal user (that's the default), and start Voodoo-Kali
                 ```   
 - as root:  
                 ```
-                sudo /root/xtart-xfce  
+                sudo /root/start-xfce  
                 ```   
                 
 ### Starting the full desktop and connecting to it via Remote Desktop Client:  
