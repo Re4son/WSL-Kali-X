@@ -9,7 +9,8 @@ Voodoo magic to run Kali Linux desktop panels and gui apps on Windows 10
    bash ./install-WSL-Kali-X  
    ```  
 3. Download and install VcXsrv X Server from here:  
-   https://sourceforge.net/projects/vcxsrv/  
+   https://sourceforge.net/projects/vcxsrv/files/vcxsrv/1.19.6.0/  
+   WARNING: Stick with this version - newer ones break composition and effects  
 
 ### Starting the GUI:  
 Run kali as normal user (that's the default), and start Voodoo-Kali
