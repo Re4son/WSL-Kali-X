@@ -1,4 +1,5 @@
 #!/bin/bash
+bash ~/fix-d.sh
 taskkill.exe /IM vcxsrv.exe /T /F
 sleep 2
 /mnt/c/Program\ Files/VcXsrv/vcxsrv.exe  :0 -ac -terminate -lesspointer -multiwindow -clipboard -wgl &
