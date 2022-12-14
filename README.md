@@ -1,4 +1,4 @@
-# Voodoo-Kali  
+# WSL-KALI-GUI  
 Voodoo magic to run Kali Linux desktop panels and gui apps on Windows 10  
 
 ### Installation: 
@@ -23,4 +23,11 @@ Voodoo magic to run Kali Linux desktop panels and gui apps on Windows 10
         After installation, you will be prompted to set separate passwords for full control and view mode.
         <br> Then first instance will run automatically
     </li>
+</ol>
+
+### Running
+Anytime you want to run the gui version again
+<ol>
+    <li>Open Kali from start or type in terminal</li>
+    <li>Execute <code>kex --win -s</code></li>
 </ol>
