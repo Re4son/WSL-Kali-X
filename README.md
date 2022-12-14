@@ -1,36 +1,33 @@
-# Voodoo-Kali  
+# WSL-KALI-GUI  
 Voodoo magic to run Kali Linux desktop panels and gui apps on Windows 10  
 
-### Installation:  
-1. Start kali in Windows 10 as normal, unprivileged user  
-2. Run  
-   ```
-   wget https://raw.githubusercontent.com/Re4son/WSL-Kali-X/master/install-WSL-Kali-X  
-   bash ./install-WSL-Kali-X  
-   ```  
-3. Download and install VcXsrv X Server from here:  
-   https://sourceforge.net/projects/vcxsrv/files/vcxsrv/1.19.6.0/  
-   WARNING: Stick with this version - newer ones break composition and effects  
+### Installation: 
+<ol>
+   <li>
+      Open run and type <code>optionalfeatures</code> and click on ok <br>
+      <img src="src/optionalfeatures.png" alt="optional features">
+   </li>
+    <li>
+      Enable WSL<br>
+      <img src="src/enable_wsl.png" alt="optional features">
+   </li>
+   <li>
+    Goto Microsoft Store and install Kali Linux from using the link below <br>
+    <a href="https://www.microsoft.com/store/productId/9PKR34TNCV07" target="_blank">https://www.microsoft.com/store/productId/9PKR34TNCV07</a>
+   </li>
+    <li>
+        After installation, run kali WSL,  set user credential then download and execute the gui script with the command below <br>
+        <code>wget https://github.com/rootleet/kali-wsl-gui/blob/master/install-WSL-Kali-X</code> <br> <br>
+        <code>bash ./install-WSL-Kali-X</code> <br>
+        The commands above will download installation script and execute it. <br>
+        After installation, you will be prompted to set separate passwords for full control and view mode.
+        <br> Then first instance will run automatically
+    </li>
+</ol>
 
-### Starting the GUI:  
-Run kali as normal user (that's the default), and start Voodoo-Kali
-
-- as normal user:  
-                ```
-                ~/start-xfce  
-                ```   
-- as root:  
-                ```
-                sudo /root/start-xfce  
-                ```   
-                
-### Starting the full desktop and connecting to it via Remote Desktop Client:  
-1. In the WSL session, run:  
-                           ```
-                           sudo /etc/init.d/xrdp start  
-                           ```  
-2. Open Remote Desktop Connection (mstsc) and connect to 127.0.0.1:3390  
-3. To stop the xrdp server, type:  
-                           ```
-                           sudo /etc/init.d/xrdp stop  
-                           ```  
+### Running
+Anytime you want to run the gui version again
+<ol>
+    <li>Open Kali from start or type in terminal</li>
+    <li>Execute <code>kex --win -s</code></li>
+</ol>
