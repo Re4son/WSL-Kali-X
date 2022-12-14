@@ -16,9 +16,12 @@ Voodoo magic to run Kali Linux desktop panels and gui apps on Windows 10
     <a href="https://www.microsoft.com/store/productId/9PKR34TNCV07" target="_blank">https://www.microsoft.com/store/productId/9PKR34TNCV07</a>
    </li>
     <li>
-        After installation, set user credential then download and execute the gui script with the command below <br>
+        After installation, run kali WSL,  set user credential then download and execute the gui script with the command below <br>
         <code>wget https://github.com/rootleet/kali-wsl-gui/blob/master/install-WSL-Kali-X</code> <br> <br>
-        <code>bash ./install-WSL-Kali-X</code>
+        <code>bash ./install-WSL-Kali-X</code> <br>
+        The commands above will download installation script and execute it. <br>
+        After installation, you will be prompted to set separate passwords for full control and view mode.
+        <br> Then first instance will run automatically
     </li>
 </ol>
 1. Start kali in Windows 10 as normal, unprivileged user  
